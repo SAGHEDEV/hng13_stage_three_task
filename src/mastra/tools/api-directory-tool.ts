@@ -94,7 +94,7 @@ export async function searchAPIs(
       { name: "description", weight: 0.3 },
       { name: "categories", weight: 0.2 },
     ],
-    threshold: 0.3,
+    threshold: 0.1,
     includeScore: true,
   });
 
