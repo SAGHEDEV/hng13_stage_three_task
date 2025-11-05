@@ -59,6 +59,7 @@ async function fetchAndCacheAPIs() {
     }
   }
 
+
   console.log('🌍 Fetching new API data from GitHub...');
   const apis = await fetchResources('resources'); // << key line
   fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true });
